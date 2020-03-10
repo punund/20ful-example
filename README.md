@@ -1,7 +1,7 @@
 ## Example project
 
 This is an example site to get you started with
-(20ful)[https://github.com/punund/20ful]
+[20ful](https://github.com/punund/20ful)
 
 Or you can just
 
