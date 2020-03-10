@@ -20,6 +20,6 @@
   },
   "homepage": "https://github.com/punund/20ful-example#readme",
   "dependencies": {
-    "20ful": "^0.1.1"
+    "20ful": "^0.1.2"
   }
 }
