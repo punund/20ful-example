@@ -1,0 +1,61 @@
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  position: relative;
+  width: auto;
+}
+.column {
+  padding: 0.75rem;
+}
+.columns {
+  padding-top: 2rem;
+  display: grid;
+  grid-template-columns: 33% auto;
+}
+html {
+  background-color: #fffeee;
+}
+body {
+  font-size: 16px;
+  color: #080808;
+  background-color: #fffeee;
+}
+a {
+  color: #3273dc;
+  text-decoration: none;
+}
+h1,
+h2,
+h3 {
+  font-family: 'EB Garamond', serif;
+  font-weight: 400;
+  color: #40408b;
+}
+h1 {
+  font-size: 3.5rem;
+}
+h2 {
+  font-size: 3rem;
+}
+h3 {
+  font-size: 2rem;
+}
+.toc {
+  position: sticky;
+  top: 2rem;
+  height: 100vh;
+  box-sizing: border-box;
+}
+ol {
+  counter-reset: item;
+  list-style: none;
+  font-family: 'Open Sans', sans-serif;
+}
+ol li {
+  margin: 0 0 0.5rem 0;
+}
+ol li:before {
+  color: #008000;
+  content: counters(item, ".") '\a0';
+  counter-increment: item;
+}
