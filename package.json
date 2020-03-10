@@ -1,0 +1,25 @@
+{
+  "name": "20ful-example",
+  "version": "1.0.0",
+  "description": "Example site built with 20ful",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/punund/20ful-example.git"
+  },
+  "keywords": [
+    "20ful"
+  ],
+  "author": "Iļja Ketris",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/punund/20ful-example/issues"
+  },
+  "homepage": "https://github.com/punund/20ful-example#readme",
+  "dependencies": {
+    "20ful": "^0.1.0"
+  }
+}
